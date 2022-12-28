@@ -1,0 +1,336 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "default": [],
+    "title": "Root Schema",
+    "items": {
+        "type": "object",
+        "title": "A Schema",
+        "required": [
+            "id",
+            "first_name",
+            "last_name",
+            "email",
+            "phone_number",
+            "address",
+            "state",
+            "zipcode",
+            "created_at",
+            "updated_at",
+            "student_id"
+        ],
+        "properties": {
+            "id": {
+                "type": "integer",
+                "title": "The id Schema",
+                "examples": [
+                    342549,
+                    342659,
+                    343919,
+                    352009,
+                    352179,
+                    356619,
+                    356679
+                ]
+            },
+            "first_name": {
+                "type": "string",
+                "title": "The first_name Schema",
+                "examples": [
+                    "Demo12",
+                    "welcome",
+                    "DvaidRemodifiedx",
+                    "Davidanna",
+                    "Lohh",
+                    "LohhRemodified"
+                ]
+            },
+            "last_name": {
+                "type": "string",
+                "title": "The last_name Schema",
+                "examples": [
+                    "Dash",
+                    "1345",
+                    "D",
+                    "ranaga",
+                    "viml",
+                    "vimal"
+                ]
+            },
+            "email": {
+                "type": "string",
+                "title": "The email Schema",
+                "examples": [
+                    "DemoDash@123",
+                    "welcome@1234",
+                    "DabviRemodified@gmail.com",
+                    "davisdash@gmail.com",
+                    "ranganna@gmail.com",
+                    "lohithanna@gmail.com"
+                ]
+            },
+            "phone_number": {
+                "type": "string",
+                "title": "The phone_number Schema",
+                "examples": [
+                    "1234567890",
+                    "7894561230",
+                    "9857455128",
+                    "7418529631",
+                    "9472583691"
+                ]
+            },
+            "address": {
+                "type": "string",
+                "title": "The address Schema",
+                "examples": [
+                    "near jsdkskdbs what the hell",
+                    "jademaysandra near kunigal",
+                    "Ramanagara",
+                    "kwatle Area",
+                    "isknagar",
+                    "WHatTHEHEellNAgar"
+                ]
+            },
+            "state": {
+                "type": "string",
+                "title": "The state Schema",
+                "examples": [
+                    "Karnataka",
+                    "karnataka",
+                    "Andhrapradesh"
+                ]
+            },
+            "zipcode": {
+                "type": "string",
+                "title": "The zipcode Schema",
+                "examples": [
+                    "571011",
+                    "571026",
+                    "569747",
+                    "574236",
+                    "571215",
+                    "572105"
+                ]
+            },
+            "created_at": {
+                "type": "string",
+                "title": "The created_at Schema",
+                "examples": [
+                    "2022-09-14T09:26:02.000Z",
+                    "2022-09-14T09:27:03.000Z",
+                    "2022-09-14T10:14:35.000Z",
+                    "2022-10-11T15:01:52.000Z",
+                    "2022-10-12T13:51:13.000Z",
+                    "2022-11-05T12:09:13.000Z",
+                    "2022-11-05T13:47:59.000Z"
+                ]
+            },
+            "updated_at": {
+                "type": "string",
+                "title": "The updated_at Schema",
+                "examples": [
+                    "2022-09-14T09:26:02.000Z",
+                    "2022-09-14T09:27:03.000Z",
+                    "2022-09-14T10:19:38.000Z",
+                    "2022-10-11T15:01:52.000Z",
+                    "2022-10-12T13:51:15.000Z",
+                    "2022-11-05T12:09:13.000Z",
+                    "2022-11-05T13:48:01.000Z"
+                ]
+            },
+            "student_id": {
+                "type": "integer",
+                "title": "The student_id Schema",
+                "examples": [
+                    3639
+                ]
+            }
+        },
+        "examples": [{
+            "id": 342549,
+            "first_name": "Demo12",
+            "last_name": "Dash",
+            "email": "DemoDash@123",
+            "phone_number": "1234567890",
+            "address": "near jsdkskdbs what the hell",
+            "state": "Karnataka",
+            "zipcode": "571011",
+            "created_at": "2022-09-14T09:26:02.000Z",
+            "updated_at": "2022-09-14T09:26:02.000Z",
+            "student_id": 3639
+        },
+        {
+            "id": 342659,
+            "first_name": "welcome",
+            "last_name": "1345",
+            "email": "welcome@1234",
+            "phone_number": "7894561230",
+            "address": "jademaysandra near kunigal",
+            "state": "Karnataka",
+            "zipcode": "571026",
+            "created_at": "2022-09-14T09:27:03.000Z",
+            "updated_at": "2022-09-14T09:27:03.000Z",
+            "student_id": 3639
+        },
+        {
+            "id": 343919,
+            "first_name": "DvaidRemodifiedx",
+            "last_name": "D",
+            "email": "DabviRemodified@gmail.com",
+            "phone_number": "9857455128",
+            "address": "Ramanagara",
+            "state": "karnataka",
+            "zipcode": "569747",
+            "created_at": "2022-09-14T10:14:35.000Z",
+            "updated_at": "2022-09-14T10:19:38.000Z",
+            "student_id": 3639
+        },
+        {
+            "id": 352009,
+            "first_name": "Davidanna",
+            "last_name": "ranaga",
+            "email": "davisdash@gmail.com",
+            "phone_number": "7418529631",
+            "address": "kwatle Area",
+            "state": "Andhrapradesh",
+            "zipcode": "574236",
+            "created_at": "2022-10-11T15:01:52.000Z",
+            "updated_at": "2022-10-11T15:01:52.000Z",
+            "student_id": 3639
+        },
+        {
+            "id": 352179,
+            "first_name": "Davidanna",
+            "last_name": "ranaga",
+            "email": "ranganna@gmail.com",
+            "phone_number": "7418529631",
+            "address": "kwatle Area",
+            "state": "Andhrapradesh",
+            "zipcode": "574236",
+            "created_at": "2022-10-12T13:51:13.000Z",
+            "updated_at": "2022-10-12T13:51:15.000Z",
+            "student_id": 3639
+        },
+        {
+            "id": 356619,
+            "first_name": "Lohh",
+            "last_name": "viml",
+            "email": "lohithanna@gmail.com",
+            "phone_number": "9472583691",
+            "address": "isknagar",
+            "state": "karnataka",
+            "zipcode": "571215",
+            "created_at": "2022-11-05T12:09:13.000Z",
+            "updated_at": "2022-11-05T12:09:13.000Z",
+            "student_id": 3639
+        },
+        {
+            "id": 356679,
+            "first_name": "LohhRemodified",
+            "last_name": "vimal",
+            "email": "lohithanna@gmail.com",
+            "phone_number": "7418529631",
+            "address": "WHatTHEHEellNAgar",
+            "state": "Karnataka",
+            "zipcode": "572105",
+            "created_at": "2022-11-05T13:47:59.000Z",
+            "updated_at": "2022-11-05T13:48:01.000Z",
+            "student_id": 3639
+        }]
+    },
+    "examples": [
+        [{
+            "id": 342549,
+            "first_name": "Demo12",
+            "last_name": "Dash",
+            "email": "DemoDash@123",
+            "phone_number": "1234567890",
+            "address": "near jsdkskdbs what the hell",
+            "state": "Karnataka",
+            "zipcode": "571011",
+            "created_at": "2022-09-14T09:26:02.000Z",
+            "updated_at": "2022-09-14T09:26:02.000Z",
+            "student_id": 3639
+        },
+        {
+            "id": 342659,
+            "first_name": "welcome",
+            "last_name": "1345",
+            "email": "welcome@1234",
+            "phone_number": "7894561230",
+            "address": "jademaysandra near kunigal",
+            "state": "Karnataka",
+            "zipcode": "571026",
+            "created_at": "2022-09-14T09:27:03.000Z",
+            "updated_at": "2022-09-14T09:27:03.000Z",
+            "student_id": 3639
+        },
+        {
+            "id": 343919,
+            "first_name": "DvaidRemodifiedx",
+            "last_name": "D",
+            "email": "DabviRemodified@gmail.com",
+            "phone_number": "9857455128",
+            "address": "Ramanagara",
+            "state": "karnataka",
+            "zipcode": "569747",
+            "created_at": "2022-09-14T10:14:35.000Z",
+            "updated_at": "2022-09-14T10:19:38.000Z",
+            "student_id": 3639
+        },
+        {
+            "id": 352009,
+            "first_name": "Davidanna",
+            "last_name": "ranaga",
+            "email": "davisdash@gmail.com",
+            "phone_number": "7418529631",
+            "address": "kwatle Area",
+            "state": "Andhrapradesh",
+            "zipcode": "574236",
+            "created_at": "2022-10-11T15:01:52.000Z",
+            "updated_at": "2022-10-11T15:01:52.000Z",
+            "student_id": 3639
+        },
+        {
+            "id": 352179,
+            "first_name": "Davidanna",
+            "last_name": "ranaga",
+            "email": "ranganna@gmail.com",
+            "phone_number": "7418529631",
+            "address": "kwatle Area",
+            "state": "Andhrapradesh",
+            "zipcode": "574236",
+            "created_at": "2022-10-12T13:51:13.000Z",
+            "updated_at": "2022-10-12T13:51:15.000Z",
+            "student_id": 3639
+        },
+        {
+            "id": 356619,
+            "first_name": "Lohh",
+            "last_name": "viml",
+            "email": "lohithanna@gmail.com",
+            "phone_number": "9472583691",
+            "address": "isknagar",
+            "state": "karnataka",
+            "zipcode": "571215",
+            "created_at": "2022-11-05T12:09:13.000Z",
+            "updated_at": "2022-11-05T12:09:13.000Z",
+            "student_id": 3639
+        },
+        {
+            "id": 356679,
+            "first_name": "LohhRemodified",
+            "last_name": "vimal",
+            "email": "lohithanna@gmail.com",
+            "phone_number": "7418529631",
+            "address": "WHatTHEHEellNAgar",
+            "state": "Karnataka",
+            "zipcode": "572105",
+            "created_at": "2022-11-05T13:47:59.000Z",
+            "updated_at": "2022-11-05T13:48:01.000Z",
+            "student_id": 3639
+        }]
+    ]
+}

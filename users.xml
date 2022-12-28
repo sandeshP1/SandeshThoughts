@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="RestAsuured Demo">
+<test name ="restAssue">
+<packages>
+<package name ="com.sgtesting.restassuredinpeace">
+</package>
+</packages>
+</test>
+<test name ="restassuredpojo1">
+<classes>
+<class name="com.sgtesting.restAssuredCompany.SiginCompany">
+</class>
+</classes>
+</test>
+
+</suite>
